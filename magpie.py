@@ -75,8 +75,10 @@ class Magpie():
 					output = self.key(word)
 					# output = self.keywords[word]
 					break
-		else: # ikr who knew for loops could use else
-			output = self.create_chain(text)
+			else: # ikr who knew for loops could use else
+				output = self.create_chain(text)
+		else:
+			output = self.create_chain
 		print("%s: %s" % (self.name, output))
 		self.outputs.append(output)
 		self.log += "User: {}\n{}: {}\n".format(
