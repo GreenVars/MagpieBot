@@ -78,7 +78,7 @@ class Magpie():
 			else: # ikr who knew for loops could use else
 				output = self.create_chain(text)
 		else:
-			output = self.create_chain
+			output = self.create_chain(text)
 		print("%s: %s" % (self.name, output))
 		self.outputs.append(output)
 		self.log += "User: {}\n{}: {}\n".format(
