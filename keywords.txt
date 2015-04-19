@@ -1,0 +1,4 @@
+dog,cat,fish|What else can you tell me about your pets?
+class,pencil,school|What do you learn in school?
+snake,cobra,python|Did you know I'm made of a snake?
+robot|What do you know about robots?
