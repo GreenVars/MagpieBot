@@ -43,7 +43,6 @@ def write_dictionary(d, name="markovs.txt"):
 if __name__ == '__main__':
 	start = default_timer()
 	samples = listdir("samples")
-	samples.remove("#tagpro")
 	lines = 0
 	for f in samples:
 		w = read_file(f)
